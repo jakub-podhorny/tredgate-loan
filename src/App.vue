@@ -35,7 +35,7 @@ onMounted(() => {
 <template>
   <div class="app">
     <header class="app-header">
-      <img src="/tredgate-logo.svg" alt="Tredgate Logo" class="logo" />
+      <img src="/tredgate-logo-original.png" alt="Tredgate Logo" class="logo" />
       <h1>Tredgate Loan</h1>
       <p class="tagline">Simple loan application management</p>
     </header>
