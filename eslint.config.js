@@ -11,6 +11,10 @@ export default tseslint.config(
     languageOptions: {
       parserOptions: {
         parser: tseslint.parser
+      },
+      globals: {
+        window: 'readonly',
+        KeyboardEvent: 'readonly'
       }
     }
   },
