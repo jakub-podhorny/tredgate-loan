@@ -5,7 +5,8 @@ import {
   createLoanApplication,
   updateLoanStatus,
   calculateMonthlyPayment,
-  autoDecideLoan
+  autoDecideLoan,
+  deleteLoan
 } from '../src/services/loanService'
 import type { LoanApplication } from '../src/types/loan'
 
@@ -325,6 +326,115 @@ describe('loanService', () => {
       expect(() => autoDecideLoan('non-existent')).toThrow(
         'Loan with id non-existent not found'
       )
+    })
+  })
+
+  describe('deleteLoan', () => {
+    it('deletes a loan by id', () => {
+      const loan1: LoanApplication = {
+        id: 'loan-1',
+        applicantName: 'Alice',
+        amount: 50000,
+        termMonths: 24,
+        interestRate: 0.08,
+        status: 'pending',
+        createdAt: '2024-01-01T00:00:00.000Z'
+      }
+      const loan2: LoanApplication = {
+        id: 'loan-2',
+        applicantName: 'Bob',
+        amount: 75000,
+        termMonths: 36,
+        interestRate: 0.06,
+        status: 'approved',
+        createdAt: '2024-02-01T00:00:00.000Z'
+      }
+      saveLoans([loan1, loan2])
+
+      deleteLoan('loan-1')
+
+      const loans = getLoans()
+      expect(loans).toHaveLength(1)
+      expect(loans[0]?.id).toBe('loan-2')
+    })
+
+    it('removes the correct loan from multiple loans', () => {
+      const loan1: LoanApplication = {
+        id: 'loan-1',
+        applicantName: 'Alice',
+        amount: 50000,
+        termMonths: 24,
+        interestRate: 0.08,
+        status: 'pending',
+        createdAt: '2024-01-01T00:00:00.000Z'
+      }
+      const loan2: LoanApplication = {
+        id: 'loan-2',
+        applicantName: 'Bob',
+        amount: 75000,
+        termMonths: 36,
+        interestRate: 0.06,
+        status: 'approved',
+        createdAt: '2024-02-01T00:00:00.000Z'
+      }
+      const loan3: LoanApplication = {
+        id: 'loan-3',
+        applicantName: 'Charlie',
+        amount: 30000,
+        termMonths: 12,
+        interestRate: 0.05,
+        status: 'rejected',
+        createdAt: '2024-03-01T00:00:00.000Z'
+      }
+      saveLoans([loan1, loan2, loan3])
+
+      deleteLoan('loan-2')
+
+      const loans = getLoans()
+      expect(loans).toHaveLength(2)
+      expect(loans.find(l => l.id === 'loan-1')).toBeDefined()
+      expect(loans.find(l => l.id === 'loan-2')).toBeUndefined()
+      expect(loans.find(l => l.id === 'loan-3')).toBeDefined()
+    })
+
+    it('throws error for non-existent loan', () => {
+      const loan: LoanApplication = {
+        id: 'existing-loan',
+        applicantName: 'Alice',
+        amount: 50000,
+        termMonths: 24,
+        interestRate: 0.08,
+        status: 'pending',
+        createdAt: '2024-01-01T00:00:00.000Z'
+      }
+      saveLoans([loan])
+
+      expect(() => deleteLoan('non-existent')).toThrow(
+        'Loan with id non-existent not found'
+      )
+    })
+
+    it('leaves storage unchanged when delete fails', () => {
+      const loan: LoanApplication = {
+        id: 'existing-loan',
+        applicantName: 'Alice',
+        amount: 50000,
+        termMonths: 24,
+        interestRate: 0.08,
+        status: 'pending',
+        createdAt: '2024-01-01T00:00:00.000Z'
+      }
+      saveLoans([loan])
+
+      try {
+        deleteLoan('non-existent')
+      } catch {
+        // Expected error
+      }
+
+      const loans = getLoans()
+      expect(loans).toHaveLength(1)
+      expect(loans[0]?.id).toBe('existing-loan')
     })
   })
 })
