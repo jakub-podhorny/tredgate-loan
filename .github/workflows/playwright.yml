@@ -1,0 +1,77 @@
+name: Playwright Tests
+
+on:
+  # Allow manual trigger
+  workflow_dispatch:
+  # Optional: also run on pull requests
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  playwright-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Run Playwright tests
+        run: npm run test:e2e
+
+      - name: Upload Playwright report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 30
+
+      - name: Upload Playwright results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-results
+          path: playwright-results.json
+          retention-days: 30
+
+      - name: Generate test summary
+        if: always()
+        run: |
+          echo "## Playwright Test Results 🎭" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # Check if results file exists
+          if [ -f playwright-results.json ]; then
+            # Extract test statistics from JSON
+            TOTAL_TESTS=$(jq -r '.suites[].suites[].specs | length' playwright-results.json | awk '{s+=$1} END {print s}')
+            
+            # Check if tests passed
+            if npx playwright test --list | grep -q "Running"; then
+              echo "### ✅ Tests Completed" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "### ❌ Tests Failed" >> $GITHUB_STEP_SUMMARY
+            fi
+            
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "📊 **Total Tests**: ${TOTAL_TESTS:-0}" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "📄 Download detailed HTML report from the workflow artifacts section above" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⚠️ Test results file not found" >> $GITHUB_STEP_SUMMARY
+          fi
