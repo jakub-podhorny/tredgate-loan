@@ -128,7 +128,7 @@ button.danger {
 }
 
 button.danger:hover {
-  background-color: #c82333;
+  background-color: var(--danger-hover-color);
 }
 
 button.secondary {
