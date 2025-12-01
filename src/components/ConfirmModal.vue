@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { watch } from 'vue'
+import { watch, onBeforeUnmount } from 'vue'
 
 const props = defineProps<{
   isOpen: boolean
@@ -24,6 +24,10 @@ watch(() => props.isOpen, (isOpen) => {
   } else {
     window.removeEventListener('keydown', handleEscape)
   }
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('keydown', handleEscape)
 })
 </script>
 
@@ -132,7 +136,7 @@ watch(() => props.isOpen, (isOpen) => {
 }
 
 .danger-btn:hover {
-  background-color: var(--danger-hover-color, #c82333);
+  background-color: var(--danger-hover-color);
 }
 
 .danger-btn:active {
