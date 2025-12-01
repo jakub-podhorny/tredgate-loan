@@ -52,9 +52,22 @@ npm run build
 
 ### Testing
 
+Run all tests:
 ```bash
 npm run test
 ```
+
+Run tests with coverage:
+```bash
+npm run test:coverage
+```
+
+Generate HTML test report:
+```bash
+npm run test:report
+```
+
+For detailed testing documentation, see [TESTING.md](./TESTING.md).
 
 ### Linting
 
@@ -78,12 +91,38 @@ src/
 ├── App.vue           # Main application component
 └── main.ts           # Application entry point
 tests/
-└── loanService.test.ts  # Unit tests
+├── loanService.test.ts  # Service layer tests
+├── LoanForm.test.ts     # LoanForm component tests
+├── LoanList.test.ts     # LoanList component tests
+└── LoanSummary.test.ts  # LoanSummary component tests
+scripts/
+└── generate-html-report.js  # Test report generator
 ```
 
 ## Data Persistence
 
 All data is stored in the browser's localStorage under the key `tredgate_loans`. No backend server or external database is used.
+
+## Testing
+
+The project has comprehensive test coverage with 57 tests across:
+- Service layer (19 tests)
+- Vue components (38 tests)
+
+Tests use Vitest and @vue/test-utils. HTML test reports are automatically generated and can be viewed in your browser.
+
+See [TESTING.md](./TESTING.md) for detailed testing documentation.
+
+## CI/CD
+
+GitHub Actions workflow runs on all pull requests to `main`:
+- Linting
+- All tests
+- HTML report generation
+- Artifact uploads
+- Build verification
+
+Test reports are available as workflow artifacts.
 
 ## License
 
