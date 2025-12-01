@@ -13,7 +13,8 @@ export default tseslint.config(
         parser: tseslint.parser
       },
       globals: {
-        window: 'readonly'
+        window: 'readonly',
+        KeyboardEvent: 'readonly'
       }
     }
   },
