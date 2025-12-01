@@ -83,7 +83,7 @@ jobs:
           echo "| ⏭️ Skipped | $SKIPPED_TESTS |" >> $GITHUB_STEP_SUMMARY
           echo "| 📊 Total | $TOTAL_TESTS |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "📄 [Download detailed HTML report from artifacts](#)" >> $GITHUB_STEP_SUMMARY
+          echo "📄 Download detailed HTML report from the workflow artifacts section above" >> $GITHUB_STEP_SUMMARY
 
       - name: Build
         run: npm run build

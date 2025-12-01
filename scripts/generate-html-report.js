@@ -269,11 +269,14 @@ function calculateTotalDuration(testResults) {
   }
   
   const totalMs = testResults.reduce((sum, suite) => {
-    const duration = (suite.endTime || 0) - (suite.startTime || 0)
+    const endTime = suite.endTime || 0
+    const startTime = suite.startTime || 0
+    // Ensure non-negative duration
+    const duration = endTime >= startTime ? endTime - startTime : 0
     return sum + duration
   }, 0)
   
-  return `${totalMs.toFixed(0)}ms`
+  return `${Math.max(0, totalMs).toFixed(0)}ms`
 }
 
 function generateTestSuites(testResults) {
