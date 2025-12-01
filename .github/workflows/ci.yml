@@ -32,5 +32,58 @@ jobs:
       - name: Run tests
         run: npm run test
 
+      - name: Generate HTML test report
+        if: always()
+        run: node scripts/generate-html-report.js
+
+      - name: Upload test report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-report
+          path: test-report.html
+          retention-days: 30
+
+      - name: Upload coverage report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: test-results.json
+          retention-days: 30
+
+      - name: Generate test summary
+        if: always()
+        run: |
+          echo "## Test Results Summary 📊" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # Parse test results from JSON
+          TOTAL_TESTS=$(jq -r '.numTotalTests // 0' test-results.json)
+          PASSED_TESTS=$(jq -r '.numPassedTests // 0' test-results.json)
+          FAILED_TESTS=$(jq -r '.numFailedTests // 0' test-results.json)
+          SKIPPED_TESTS=$(jq -r '.numPendingTests // 0' test-results.json)
+          SUCCESS=$(jq -r '.success' test-results.json)
+          
+          # Determine status emoji
+          if [ "$SUCCESS" = "true" ]; then
+            STATUS_EMOJI="✅"
+            STATUS_TEXT="All tests passed!"
+          else
+            STATUS_EMOJI="❌"
+            STATUS_TEXT="Some tests failed"
+          fi
+          
+          echo "### $STATUS_EMOJI $STATUS_TEXT" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Metric | Count |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| ✅ Passed | $PASSED_TESTS |" >> $GITHUB_STEP_SUMMARY
+          echo "| ❌ Failed | $FAILED_TESTS |" >> $GITHUB_STEP_SUMMARY
+          echo "| ⏭️ Skipped | $SKIPPED_TESTS |" >> $GITHUB_STEP_SUMMARY
+          echo "| 📊 Total | $TOTAL_TESTS |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "📄 Download detailed HTML report from the workflow artifacts section above" >> $GITHUB_STEP_SUMMARY
+
       - name: Build
         run: npm run build
