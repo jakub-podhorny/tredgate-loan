@@ -184,7 +184,7 @@ function formatDate(isoDate: string): string {
 }
 
 .delete-btn:hover {
-  background-color: #f8f9fa;
+  background-color: var(--hover-background, #f8f9fa);
   color: var(--danger-color);
   border-color: var(--danger-color);
 }

@@ -1,5 +1,7 @@
 <script setup lang="ts">
-defineProps<{
+import { watch } from 'vue'
+
+const props = defineProps<{
   isOpen: boolean
   title: string
   message: string
@@ -9,6 +11,20 @@ const emit = defineEmits<{
   confirm: []
   cancel: []
 }>()
+
+function handleEscape(event: KeyboardEvent) {
+  if (event.key === 'Escape') {
+    emit('cancel')
+  }
+}
+
+watch(() => props.isOpen, (isOpen) => {
+  if (isOpen) {
+    window.addEventListener('keydown', handleEscape)
+  } else {
+    window.removeEventListener('keydown', handleEscape)
+  }
+})
 </script>
 
 <template>
@@ -45,7 +61,7 @@ const emit = defineEmits<{
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1000;
+  z-index: var(--modal-z-index, 1000);
 }
 
 .modal-content {
@@ -99,7 +115,7 @@ const emit = defineEmits<{
 }
 
 .ghost-btn:hover {
-  background-color: #f8f9fa;
+  background-color: var(--hover-background, #f8f9fa);
   border-color: var(--text-secondary);
 }
 
@@ -116,7 +132,7 @@ const emit = defineEmits<{
 }
 
 .danger-btn:hover {
-  background-color: #c82333;
+  background-color: var(--danger-hover-color, #c82333);
 }
 
 .danger-btn:active {
