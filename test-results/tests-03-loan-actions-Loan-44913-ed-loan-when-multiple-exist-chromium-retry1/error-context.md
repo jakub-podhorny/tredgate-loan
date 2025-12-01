@@ -1,0 +1,94 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - img "Tredgate Logo" [ref=e5]
+      - heading "Tredgate Loan" [level=1] [ref=e6]
+      - paragraph [ref=e7]: Simple loan application management
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]: "2"
+        - generic [ref=e11]: Total Applications
+      - generic [ref=e12]:
+        - generic [ref=e13]: "2"
+        - generic [ref=e14]: Pending
+      - generic [ref=e15]:
+        - generic [ref=e16]: "0"
+        - generic [ref=e17]: Approved
+      - generic [ref=e18]:
+        - generic [ref=e19]: "0"
+        - generic [ref=e20]: Rejected
+      - generic [ref=e21]:
+        - generic [ref=e22]: $0
+        - generic [ref=e23]: Total Approved
+    - main [ref=e24]:
+      - generic [ref=e26]:
+        - heading "New Loan Application" [level=2] [ref=e27]
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: Applicant Name
+            - textbox "Applicant Name" [ref=e31]:
+              - /placeholder: Enter applicant name
+          - generic [ref=e32]:
+            - generic [ref=e33]: Loan Amount ($)
+            - spinbutton "Loan Amount ($)" [ref=e34]
+          - generic [ref=e35]:
+            - generic [ref=e36]: Term (Months)
+            - spinbutton "Term (Months)" [ref=e37]
+          - generic [ref=e38]:
+            - generic [ref=e39]: Interest Rate (e.g., 0.08 for 8%)
+            - spinbutton "Interest Rate (e.g., 0.08 for 8%)" [ref=e40]
+          - button "Create Application" [ref=e41] [cursor=pointer]
+      - generic [ref=e43]:
+        - heading "Loan Applications" [level=2] [ref=e44]
+        - table [ref=e46]:
+          - rowgroup [ref=e47]:
+            - row "Applicant Amount Term Rate Monthly Payment Status Created Actions" [ref=e48]:
+              - columnheader "Applicant" [ref=e49]
+              - columnheader "Amount" [ref=e50]
+              - columnheader "Term" [ref=e51]
+              - columnheader "Rate" [ref=e52]
+              - columnheader "Monthly Payment" [ref=e53]
+              - columnheader "Status" [ref=e54]
+              - columnheader "Created" [ref=e55]
+              - columnheader "Actions" [ref=e56]
+          - rowgroup [ref=e57]:
+            - row "John Doe $50,000.00 36 mo 8.0% $1,500.00 pending Dec 1, 2025 ✓ ✗ ⚡ Delete loan application" [ref=e58]:
+              - cell "John Doe" [ref=e59]
+              - cell "$50,000.00" [ref=e60]
+              - cell "36 mo" [ref=e61]
+              - cell "8.0%" [ref=e62]
+              - cell "$1,500.00" [ref=e63]
+              - cell "pending" [ref=e64]:
+                - generic [ref=e65]: pending
+              - cell "Dec 1, 2025" [ref=e66]
+              - cell "✓ ✗ ⚡ Delete loan application" [ref=e67]:
+                - button "✓" [ref=e68] [cursor=pointer]
+                - button "✗" [ref=e69] [cursor=pointer]
+                - button "⚡" [ref=e70] [cursor=pointer]
+                - button "Delete loan application" [active] [ref=e71] [cursor=pointer]:
+                  - generic [ref=e72]: delete
+            - row "Jane Smith $150,000.00 72 mo 6.0% $2,208.33 pending Dec 1, 2025 ✓ ✗ ⚡ Delete loan application" [ref=e73]:
+              - cell "Jane Smith" [ref=e74]
+              - cell "$150,000.00" [ref=e75]
+              - cell "72 mo" [ref=e76]
+              - cell "6.0%" [ref=e77]
+              - cell "$2,208.33" [ref=e78]
+              - cell "pending" [ref=e79]:
+                - generic [ref=e80]: pending
+              - cell "Dec 1, 2025" [ref=e81]
+              - cell "✓ ✗ ⚡ Delete loan application" [ref=e82]:
+                - button "✓" [ref=e83] [cursor=pointer]
+                - button "✗" [ref=e84] [cursor=pointer]
+                - button "⚡" [ref=e85] [cursor=pointer]
+                - button "Delete loan application" [ref=e86] [cursor=pointer]:
+                  - generic [ref=e87]: delete
+  - generic [ref=e89]:
+    - heading "Delete Loan Application" [level=3] [ref=e91]
+    - paragraph [ref=e93]: Are you sure you want to delete the loan application for John Doe? This action cannot be undone.
+    - generic [ref=e94]:
+      - button "Cancel" [ref=e95] [cursor=pointer]
+      - button "Delete" [ref=e96] [cursor=pointer]
+```
