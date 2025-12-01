@@ -1,4 +1,10 @@
 import type { LoanApplication, LoanStatus, CreateLoanInput } from '../types/loan'
+import {
+  createLoanCreatedLog,
+  createStatusChangeLog,
+  createLoanDeletedLog,
+  addAuditLog
+} from './auditLogService'
 
 const STORAGE_KEY = 'tredgate_loans'
 
@@ -65,6 +71,14 @@ export function createLoanApplication(input: CreateLoanInput): LoanApplication {
   loans.push(newLoan)
   saveLoans(loans)
 
+  // Create audit log entry
+  const logEntry = createLoanCreatedLog({
+    loanId: newLoan.id,
+    applicantName: newLoan.applicantName,
+    loanAmount: newLoan.amount
+  })
+  addAuditLog(logEntry)
+
   return newLoan
 }
 
@@ -81,7 +95,19 @@ export function updateLoanStatus(id: string, status: LoanStatus): void {
 
   const loan = loans[loanIndex]
   if (loan) {
+    const previousStatus = loan.status
     loan.status = status
+    
+    // Create audit log entry
+    const logEntry = createStatusChangeLog({
+      loanId: loan.id,
+      applicantName: loan.applicantName,
+      loanAmount: loan.amount,
+      previousStatus,
+      newStatus: status,
+      isAuto: false
+    })
+    addAuditLog(logEntry)
   }
   saveLoans(loans)
 }
@@ -108,6 +134,7 @@ export function autoDecideLoan(id: string): void {
     throw new Error(`Loan with id ${id} not found`)
   }
 
+  const previousStatus = loan.status
   if (loan.amount <= 100000 && loan.termMonths <= 60) {
     loan.status = 'approved'
   } else {
@@ -115,6 +142,17 @@ export function autoDecideLoan(id: string): void {
   }
 
   saveLoans(loans)
+
+  // Create audit log entry
+  const logEntry = createStatusChangeLog({
+    loanId: loan.id,
+    applicantName: loan.applicantName,
+    loanAmount: loan.amount,
+    previousStatus,
+    newStatus: loan.status,
+    isAuto: true
+  })
+  addAuditLog(logEntry)
 }
 
 /**
@@ -122,11 +160,21 @@ export function autoDecideLoan(id: string): void {
  */
 export function deleteLoan(id: string): void {
   const loans = getLoans()
-  const filteredLoans = loans.filter(loan => loan.id !== id)
+  const loan = loans.find(l => l.id === id)
   
-  if (filteredLoans.length === loans.length) {
+  if (!loan) {
     throw new Error(`Loan with id ${id} not found`)
   }
+
+  // Create audit log entry before deletion
+  const logEntry = createLoanDeletedLog({
+    loanId: loan.id,
+    applicantName: loan.applicantName,
+    loanAmount: loan.amount,
+    status: loan.status
+  })
+  addAuditLog(logEntry)
   
+  const filteredLoans = loans.filter(l => l.id !== id)
   saveLoans(filteredLoans)
 }

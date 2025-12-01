@@ -5,11 +5,21 @@ import { getLoans, updateLoanStatus, autoDecideLoan, deleteLoan } from './servic
 import LoanForm from './components/LoanForm.vue'
 import LoanList from './components/LoanList.vue'
 import LoanSummary from './components/LoanSummary.vue'
+import AuditLogViewer from './components/AuditLogViewer.vue'
 
 const loans = ref<LoanApplication[]>([])
+const currentView = ref<'loans' | 'audit'>('loans')
 
 function refreshLoans() {
   loans.value = getLoans()
+}
+
+function showLoansView() {
+  currentView.value = 'loans'
+}
+
+function showAuditView() {
+  currentView.value = 'audit'
 }
 
 function handleApprove(id: string) {
@@ -45,9 +55,26 @@ onMounted(() => {
       <p class="tagline">Simple loan application management</p>
     </header>
 
-    <LoanSummary :loans="loans" />
+    <nav class="navigation">
+      <button 
+        @click="showLoansView" 
+        :class="{ active: currentView === 'loans' }"
+        class="nav-btn"
+      >
+        Loan Applications
+      </button>
+      <button 
+        @click="showAuditView" 
+        :class="{ active: currentView === 'audit' }"
+        class="nav-btn"
+      >
+        Audit Log
+      </button>
+    </nav>
 
-    <main class="main-content">
+    <LoanSummary v-if="currentView === 'loans'" :loans="loans" />
+
+    <main v-if="currentView === 'loans'" class="main-content">
       <div class="left-column">
         <LoanForm @created="refreshLoans" />
       </div>
@@ -60,6 +87,10 @@ onMounted(() => {
           @delete="handleDelete"
         />
       </div>
+    </main>
+
+    <main v-if="currentView === 'audit'" class="audit-content">
+      <AuditLogViewer />
     </main>
   </div>
 </template>
@@ -87,10 +118,43 @@ onMounted(() => {
   font-size: 1rem;
 }
 
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.nav-btn {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid var(--primary-color);
+  background: white;
+  color: var(--primary-color);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.nav-btn:hover {
+  background: #f5f5f5;
+}
+
+.nav-btn.active {
+  background: var(--primary-color);
+  color: white;
+}
+
 .main-content {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
+}
+
+.audit-content {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .left-column {
