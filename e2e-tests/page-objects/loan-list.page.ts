@@ -116,6 +116,16 @@ export class LoanListPage extends BasePage {
   }
 
   /**
+   * Confirm delete in the modal
+   */
+  async confirmDelete(): Promise<void> {
+    // Wait for modal to appear and click the confirm button
+    const confirmButton = this.page.getByRole('button', { name: 'Delete' }).last();
+    await confirmButton.waitFor({ state: 'visible' });
+    await confirmButton.click();
+  }
+
+  /**
    * Get number of loan rows
    */
   async getLoanCount(): Promise<number> {
@@ -210,6 +220,8 @@ export class LoanListPage extends BasePage {
   async deleteLoan(rowIndex: number = 0): Promise<void> {
     await this.page.evaluate(() => console.log('[Test Step] Deleting loan'));
     await this.clickDelete(rowIndex);
+    // Confirm the delete action in the modal
+    await this.confirmDelete();
     // Wait for the UI to update after deletion
     await this.page.waitForTimeout(100);
     await this.page.evaluate(() => console.log('[Test Step] Loan deleted'));

@@ -36,13 +36,13 @@ test.describe('Loan Actions', () => {
       // Verify status changed to approved
       await loanApp.list.expectLoanStatus(TEXT.STATUS_APPROVED, 0);
 
-      // Verify summary updated
+      // Verify summary updated (summary displays amount without cents)
       await loanApp.summary.expectSummaryStats({
         total: 1,
         pending: 0,
         approved: 1,
         rejected: 0,
-        totalApprovedAmount: formatCurrency(parseFloat(loanData.amount))
+        totalApprovedAmount: '$50,000'
       });
 
       // Verify action buttons are no longer visible
@@ -61,16 +61,14 @@ test.describe('Loan Actions', () => {
       await loanApp.list.approveLoan(0);
       await loanApp.list.approveLoan(1);
 
-      // Calculate expected total
-      const totalAmount = parseFloat(loan1.amount) + parseFloat(loan2.amount);
-
-      // Verify summary
+      // Verify summary (summary displays amount without cents)
+      // $50,000 + $90,000 = $140,000
       await loanApp.summary.expectSummaryStats({
         total: 2,
         pending: 0,
         approved: 2,
         rejected: 0,
-        totalApprovedAmount: formatCurrency(totalAmount)
+        totalApprovedAmount: '$140,000'
       });
     });
   });
@@ -143,13 +141,13 @@ test.describe('Loan Actions', () => {
       // Verify status changed to approved
       await loanApp.list.expectLoanStatus(TEXT.STATUS_APPROVED, 0);
 
-      // Verify summary
+      // Verify summary (summary displays amount without cents)
       await loanApp.summary.expectSummaryStats({
         total: 1,
         pending: 0,
         approved: 1,
         rejected: 0,
-        totalApprovedAmount: formatCurrency(parseFloat(loanData.amount))
+        totalApprovedAmount: '$90,000'
       });
     });
 

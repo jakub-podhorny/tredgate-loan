@@ -17,19 +17,19 @@
         "buildHref": "https://github.com/jakub-podhorny/tredgate-loan/actions/runs/19822022287"
       },
       "gitCommit": {
-        "shortHash": "4b532cf",
-        "hash": "4b532cf4423e66659d241d645b11586a93b1df1a",
-        "subject": "Initial plan",
-        "body": "Initial plan\n",
+        "shortHash": "d245ab3",
+        "hash": "d245ab36803dcc9dcbde848763a1c395aa61765c",
+        "subject": "Add Playwright test framework with comprehensive E2E tests",
+        "body": "Add Playwright test framework with comprehensive E2E tests\n\nCo-authored-by: jakub-podhorny <243822208+jakub-podhorny@users.noreply.github.com>\n",
         "author": {
           "name": "copilot-swe-agent[bot]",
           "email": "198982749+Copilot@users.noreply.github.com",
-          "time": 1764590697000
+          "time": 1764591749000
         },
         "committer": {
           "name": "copilot-swe-agent[bot]",
           "email": "198982749+Copilot@users.noreply.github.com",
-          "time": 1764590697000
+          "time": 1764591749000
         },
         "branch": "copilot/implement-playwright-tests"
       },
@@ -72,19 +72,19 @@
             "buildHref": "https://github.com/jakub-podhorny/tredgate-loan/actions/runs/19822022287"
           },
           "gitCommit": {
-            "shortHash": "4b532cf",
-            "hash": "4b532cf4423e66659d241d645b11586a93b1df1a",
-            "subject": "Initial plan",
-            "body": "Initial plan\n",
+            "shortHash": "d245ab3",
+            "hash": "d245ab36803dcc9dcbde848763a1c395aa61765c",
+            "subject": "Add Playwright test framework with comprehensive E2E tests",
+            "body": "Add Playwright test framework with comprehensive E2E tests\n\nCo-authored-by: jakub-podhorny <243822208+jakub-podhorny@users.noreply.github.com>\n",
             "author": {
               "name": "copilot-swe-agent[bot]",
               "email": "198982749+Copilot@users.noreply.github.com",
-              "time": 1764590697000
+              "time": 1764591749000
             },
             "committer": {
               "name": "copilot-swe-agent[bot]",
               "email": "198982749+Copilot@users.noreply.github.com",
-              "time": 1764590697000
+              "time": 1764591749000
             },
             "branch": "copilot/implement-playwright-tests"
           },
@@ -143,12 +143,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 686,
+                      "duration": 674,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-01T12:21:06.388Z",
+                      "startTime": "2025-12-01T12:25:58.035Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -177,12 +177,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 745,
+                      "duration": 782,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-01T12:21:06.387Z",
+                      "startTime": "2025-12-01T12:25:58.044Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -211,12 +211,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 614,
+                      "duration": 607,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-01T12:21:07.180Z",
+                      "startTime": "2025-12-01T12:25:58.814Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -245,12 +245,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 537,
+                      "duration": 543,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-01T12:21:07.258Z",
+                      "startTime": "2025-12-01T12:25:58.936Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -279,12 +279,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 562,
+                      "duration": 584,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-01T12:21:07.808Z",
+                      "startTime": "2025-12-01T12:25:59.440Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -313,12 +313,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 576,
+                      "duration": 550,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-01T12:21:07.813Z",
+                      "startTime": "2025-12-01T12:25:59.496Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -347,12 +347,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 561,
+                      "duration": 531,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-01T12:21:08.383Z",
+                      "startTime": "2025-12-01T12:26:00.038Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -398,12 +398,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 995,
+                      "duration": 941,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-01T12:21:08.413Z",
+                      "startTime": "2025-12-01T12:26:00.073Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -432,12 +432,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 825,
+                      "duration": 821,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-01T12:21:08.964Z",
+                      "startTime": "2025-12-01T12:26:00.590Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -466,12 +466,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1039,
+                      "duration": 1125,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-01T12:21:09.423Z",
+                      "startTime": "2025-12-01T12:26:01.029Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -500,12 +500,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 860,
+                      "duration": 904,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-01T12:21:09.809Z",
+                      "startTime": "2025-12-01T12:26:01.428Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -534,12 +534,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1052,
+                      "duration": 955,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-01T12:21:10.473Z",
+                      "startTime": "2025-12-01T12:26:02.167Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -568,12 +568,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 882,
+                      "duration": 855,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-12-01T12:21:10.686Z",
+                      "startTime": "2025-12-01T12:26:02.348Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -612,7 +612,7 @@
               "specs": [
                 {
                   "title": "should approve a pending loan",
-                  "ok": false,
+                  "ok": true,
                   "tags": [],
                   "tests": [
                     {
@@ -625,179 +625,18 @@
                         {
                           "workerIndex": 1,
                           "parallelIndex": 1,
-                          "status": "failed",
-                          "duration": 1150,
-                          "error": {
-                            "message": "Error: Total approved amount should be $50,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$50,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$50,000\"\u001b[39m",
-                            "stack": "Error: Total approved amount should be $50,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$50,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$50,000\"\u001b[39m\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:40:7",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                              "column": 7,
-                              "line": 131
-                            },
-                            "snippet": "   at page-objects/loan-summary.page.ts:131\n\n\u001b[0m \u001b[90m 129 |\u001b[39m       actual\u001b[33m,\u001b[39m \n \u001b[90m 130 |\u001b[39m       \u001b[32m`Total approved amount should be ${expectedAmount}`\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 131 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(expectedAmount)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 132 |\u001b[39m   }\n \u001b[90m 133 |\u001b[39m\n \u001b[90m 134 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                                "column": 7,
-                                "line": 131
-                              },
-                              "message": "Error: Total approved amount should be $50,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$50,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$50,000\"\u001b[39m\n\n   at page-objects/loan-summary.page.ts:131\n\n  129 |       actual, \n  130 |       `Total approved amount should be ${expectedAmount}`\n> 131 |     ).toBe(expectedAmount);\n      |       ^\n  132 |   }\n  133 |\n  134 |   /**\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:40:7"
-                            }
-                          ],
+                          "status": "passed",
+                          "duration": 1011,
+                          "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:11.547Z",
+                          "startTime": "2025-12-01T12:26:03.143Z",
                           "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-161e6-ould-approve-a-pending-loan-chromium/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-161e6-ould-approve-a-pending-loan-chromium/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-161e6-ould-approve-a-pending-loan-chromium/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-161e6-ould-approve-a-pending-loan-chromium/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                            "column": 7,
-                            "line": 131
-                          }
-                        },
-                        {
-                          "workerIndex": 2,
-                          "parallelIndex": 1,
-                          "status": "failed",
-                          "duration": 1214,
-                          "error": {
-                            "message": "Error: Total approved amount should be $50,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$50,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$50,000\"\u001b[39m",
-                            "stack": "Error: Total approved amount should be $50,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$50,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$50,000\"\u001b[39m\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:40:7",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                              "column": 7,
-                              "line": 131
-                            },
-                            "snippet": "   at page-objects/loan-summary.page.ts:131\n\n\u001b[0m \u001b[90m 129 |\u001b[39m       actual\u001b[33m,\u001b[39m \n \u001b[90m 130 |\u001b[39m       \u001b[32m`Total approved amount should be ${expectedAmount}`\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 131 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(expectedAmount)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 132 |\u001b[39m   }\n \u001b[90m 133 |\u001b[39m\n \u001b[90m 134 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                                "column": 7,
-                                "line": 131
-                              },
-                              "message": "Error: Total approved amount should be $50,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$50,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$50,000\"\u001b[39m\n\n   at page-objects/loan-summary.page.ts:131\n\n  129 |       actual, \n  130 |       `Total approved amount should be ${expectedAmount}`\n> 131 |     ).toBe(expectedAmount);\n      |       ^\n  132 |   }\n  133 |\n  134 |   /**\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:40:7"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 1,
-                          "startTime": "2025-12-01T12:21:13.572Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-161e6-ould-approve-a-pending-loan-chromium-retry1/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-161e6-ould-approve-a-pending-loan-chromium-retry1/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-161e6-ould-approve-a-pending-loan-chromium-retry1/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-161e6-ould-approve-a-pending-loan-chromium-retry1/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                            "column": 7,
-                            "line": 131
-                          }
-                        },
-                        {
-                          "workerIndex": 4,
-                          "parallelIndex": 1,
-                          "status": "failed",
-                          "duration": 1048,
-                          "error": {
-                            "message": "Error: Total approved amount should be $50,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$50,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$50,000\"\u001b[39m",
-                            "stack": "Error: Total approved amount should be $50,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$50,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$50,000\"\u001b[39m\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:40:7",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                              "column": 7,
-                              "line": 131
-                            },
-                            "snippet": "   at page-objects/loan-summary.page.ts:131\n\n\u001b[0m \u001b[90m 129 |\u001b[39m       actual\u001b[33m,\u001b[39m \n \u001b[90m 130 |\u001b[39m       \u001b[32m`Total approved amount should be ${expectedAmount}`\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 131 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(expectedAmount)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 132 |\u001b[39m   }\n \u001b[90m 133 |\u001b[39m\n \u001b[90m 134 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                                "column": 7,
-                                "line": 131
-                              },
-                              "message": "Error: Total approved amount should be $50,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$50,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$50,000\"\u001b[39m\n\n   at page-objects/loan-summary.page.ts:131\n\n  129 |       actual, \n  130 |       `Total approved amount should be ${expectedAmount}`\n> 131 |     ).toBe(expectedAmount);\n      |       ^\n  132 |   }\n  133 |\n  134 |   /**\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:40:7"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 2,
-                          "startTime": "2025-12-01T12:21:15.770Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-161e6-ould-approve-a-pending-loan-chromium-retry2/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-161e6-ould-approve-a-pending-loan-chromium-retry2/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-161e6-ould-approve-a-pending-loan-chromium-retry2/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-161e6-ould-approve-a-pending-loan-chromium-retry2/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                            "column": 7,
-                            "line": 131
-                          }
+                          "attachments": []
                         }
                       ],
-                      "status": "unexpected"
+                      "status": "expected"
                     }
                   ],
                   "id": "1f3e9c0348843484c717-8d7b215d053fff6df10e",
@@ -807,7 +646,7 @@
                 },
                 {
                   "title": "should update total approved amount when approving multiple loans",
-                  "ok": false,
+                  "ok": true,
                   "tags": [],
                   "tests": [
                     {
@@ -820,179 +659,18 @@
                         {
                           "workerIndex": 0,
                           "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 1502,
-                          "error": {
-                            "message": "Error: Total approved amount should be $140,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$140,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$140,000\"\u001b[39m",
-                            "stack": "Error: Total approved amount should be $140,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$140,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$140,000\"\u001b[39m\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:68:7",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                              "column": 7,
-                              "line": 131
-                            },
-                            "snippet": "   at page-objects/loan-summary.page.ts:131\n\n\u001b[0m \u001b[90m 129 |\u001b[39m       actual\u001b[33m,\u001b[39m \n \u001b[90m 130 |\u001b[39m       \u001b[32m`Total approved amount should be ${expectedAmount}`\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 131 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(expectedAmount)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 132 |\u001b[39m   }\n \u001b[90m 133 |\u001b[39m\n \u001b[90m 134 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                                "column": 7,
-                                "line": 131
-                              },
-                              "message": "Error: Total approved amount should be $140,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$140,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$140,000\"\u001b[39m\n\n   at page-objects/loan-summary.page.ts:131\n\n  129 |       actual, \n  130 |       `Total approved amount should be ${expectedAmount}`\n> 131 |     ).toBe(expectedAmount);\n      |       ^\n  132 |   }\n  133 |\n  134 |   /**\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:68:7"
-                            }
-                          ],
+                          "status": "passed",
+                          "duration": 1393,
+                          "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:11.594Z",
+                          "startTime": "2025-12-01T12:26:03.246Z",
                           "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-14d97-en-approving-multiple-loans-chromium/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-14d97-en-approving-multiple-loans-chromium/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-14d97-en-approving-multiple-loans-chromium/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-14d97-en-approving-multiple-loans-chromium/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                            "column": 7,
-                            "line": 131
-                          }
-                        },
-                        {
-                          "workerIndex": 3,
-                          "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 1463,
-                          "error": {
-                            "message": "Error: Total approved amount should be $140,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$140,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$140,000\"\u001b[39m",
-                            "stack": "Error: Total approved amount should be $140,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$140,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$140,000\"\u001b[39m\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:68:7",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                              "column": 7,
-                              "line": 131
-                            },
-                            "snippet": "   at page-objects/loan-summary.page.ts:131\n\n\u001b[0m \u001b[90m 129 |\u001b[39m       actual\u001b[33m,\u001b[39m \n \u001b[90m 130 |\u001b[39m       \u001b[32m`Total approved amount should be ${expectedAmount}`\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 131 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(expectedAmount)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 132 |\u001b[39m   }\n \u001b[90m 133 |\u001b[39m\n \u001b[90m 134 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                                "column": 7,
-                                "line": 131
-                              },
-                              "message": "Error: Total approved amount should be $140,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$140,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$140,000\"\u001b[39m\n\n   at page-objects/loan-summary.page.ts:131\n\n  129 |       actual, \n  130 |       `Total approved amount should be ${expectedAmount}`\n> 131 |     ).toBe(expectedAmount);\n      |       ^\n  132 |   }\n  133 |\n  134 |   /**\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:68:7"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 1,
-                          "startTime": "2025-12-01T12:21:14.043Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-14d97-en-approving-multiple-loans-chromium-retry1/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-14d97-en-approving-multiple-loans-chromium-retry1/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-14d97-en-approving-multiple-loans-chromium-retry1/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-14d97-en-approving-multiple-loans-chromium-retry1/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                            "column": 7,
-                            "line": 131
-                          }
-                        },
-                        {
-                          "workerIndex": 5,
-                          "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 1402,
-                          "error": {
-                            "message": "Error: Total approved amount should be $140,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$140,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$140,000\"\u001b[39m",
-                            "stack": "Error: Total approved amount should be $140,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$140,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$140,000\"\u001b[39m\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:68:7",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                              "column": 7,
-                              "line": 131
-                            },
-                            "snippet": "   at page-objects/loan-summary.page.ts:131\n\n\u001b[0m \u001b[90m 129 |\u001b[39m       actual\u001b[33m,\u001b[39m \n \u001b[90m 130 |\u001b[39m       \u001b[32m`Total approved amount should be ${expectedAmount}`\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 131 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(expectedAmount)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 132 |\u001b[39m   }\n \u001b[90m 133 |\u001b[39m\n \u001b[90m 134 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                                "column": 7,
-                                "line": 131
-                              },
-                              "message": "Error: Total approved amount should be $140,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$140,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$140,000\"\u001b[39m\n\n   at page-objects/loan-summary.page.ts:131\n\n  129 |       actual, \n  130 |       `Total approved amount should be ${expectedAmount}`\n> 131 |     ).toBe(expectedAmount);\n      |       ^\n  132 |   }\n  133 |\n  134 |   /**\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:68:7"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 2,
-                          "startTime": "2025-12-01T12:21:16.563Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-14d97-en-approving-multiple-loans-chromium-retry2/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-14d97-en-approving-multiple-loans-chromium-retry2/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-14d97-en-approving-multiple-loans-chromium-retry2/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-14d97-en-approving-multiple-loans-chromium-retry2/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                            "column": 7,
-                            "line": 131
-                          }
+                          "attachments": []
                         }
                       ],
-                      "status": "unexpected"
+                      "status": "expected"
                     }
                   ],
                   "id": "1f3e9c0348843484c717-ca1eff0ba62a8973a7f5",
@@ -1005,7 +683,7 @@
             {
               "title": "Reject Loan",
               "file": "tests/03-loan-actions.spec.ts",
-              "line": 78,
+              "line": 76,
               "column": 8,
               "specs": [
                 {
@@ -1021,15 +699,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 6,
+                          "workerIndex": 1,
                           "parallelIndex": 1,
                           "status": "passed",
-                          "duration": 936,
+                          "duration": 1073,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:17.830Z",
+                          "startTime": "2025-12-01T12:26:04.170Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1039,7 +717,7 @@
                   ],
                   "id": "1f3e9c0348843484c717-083518a0105cd050cc44",
                   "file": "tests/03-loan-actions.spec.ts",
-                  "line": 79,
+                  "line": 77,
                   "column": 5
                 },
                 {
@@ -1055,15 +733,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 7,
+                          "workerIndex": 0,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 1003,
+                          "duration": 952,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:19.088Z",
+                          "startTime": "2025-12-01T12:26:04.657Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1073,7 +751,7 @@
                   ],
                   "id": "1f3e9c0348843484c717-50b25179a4464f2ea9bc",
                   "file": "tests/03-loan-actions.spec.ts",
-                  "line": 109,
+                  "line": 107,
                   "column": 5
                 }
               ]
@@ -1081,12 +759,12 @@
             {
               "title": "Auto-decide Loan",
               "file": "tests/03-loan-actions.spec.ts",
-              "line": 128,
+              "line": 126,
               "column": 8,
               "specs": [
                 {
                   "title": "should auto-approve loan when amount ≤ $100,000 AND term ≤ 60 months",
-                  "ok": false,
+                  "ok": true,
                   "tags": [],
                   "tests": [
                     {
@@ -1097,186 +775,25 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 6,
+                          "workerIndex": 1,
                           "parallelIndex": 1,
-                          "status": "failed",
-                          "duration": 1088,
-                          "error": {
-                            "message": "Error: Total approved amount should be $90,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$90,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$90,000\"\u001b[39m",
-                            "stack": "Error: Total approved amount should be $90,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$90,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$90,000\"\u001b[39m\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:147:7",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                              "column": 7,
-                              "line": 131
-                            },
-                            "snippet": "   at page-objects/loan-summary.page.ts:131\n\n\u001b[0m \u001b[90m 129 |\u001b[39m       actual\u001b[33m,\u001b[39m \n \u001b[90m 130 |\u001b[39m       \u001b[32m`Total approved amount should be ${expectedAmount}`\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 131 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(expectedAmount)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 132 |\u001b[39m   }\n \u001b[90m 133 |\u001b[39m\n \u001b[90m 134 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                                "column": 7,
-                                "line": 131
-                              },
-                              "message": "Error: Total approved amount should be $90,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$90,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$90,000\"\u001b[39m\n\n   at page-objects/loan-summary.page.ts:131\n\n  129 |       actual, \n  130 |       `Total approved amount should be ${expectedAmount}`\n> 131 |     ).toBe(expectedAmount);\n      |       ^\n  132 |   }\n  133 |\n  134 |   /**\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:147:7"
-                            }
-                          ],
+                          "status": "passed",
+                          "duration": 967,
+                          "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:18.872Z",
+                          "startTime": "2025-12-01T12:26:05.257Z",
                           "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-68afa-00-000-AND-term-≤-60-months-chromium/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-68afa-00-000-AND-term-≤-60-months-chromium/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-68afa-00-000-AND-term-≤-60-months-chromium/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-68afa-00-000-AND-term-≤-60-months-chromium/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                            "column": 7,
-                            "line": 131
-                          }
-                        },
-                        {
-                          "workerIndex": 8,
-                          "parallelIndex": 1,
-                          "status": "failed",
-                          "duration": 1156,
-                          "error": {
-                            "message": "Error: Total approved amount should be $90,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$90,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$90,000\"\u001b[39m",
-                            "stack": "Error: Total approved amount should be $90,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$90,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$90,000\"\u001b[39m\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:147:7",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                              "column": 7,
-                              "line": 131
-                            },
-                            "snippet": "   at page-objects/loan-summary.page.ts:131\n\n\u001b[0m \u001b[90m 129 |\u001b[39m       actual\u001b[33m,\u001b[39m \n \u001b[90m 130 |\u001b[39m       \u001b[32m`Total approved amount should be ${expectedAmount}`\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 131 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(expectedAmount)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 132 |\u001b[39m   }\n \u001b[90m 133 |\u001b[39m\n \u001b[90m 134 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                                "column": 7,
-                                "line": 131
-                              },
-                              "message": "Error: Total approved amount should be $90,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$90,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$90,000\"\u001b[39m\n\n   at page-objects/loan-summary.page.ts:131\n\n  129 |       actual, \n  130 |       `Total approved amount should be ${expectedAmount}`\n> 131 |     ).toBe(expectedAmount);\n      |       ^\n  132 |   }\n  133 |\n  134 |   /**\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:147:7"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 1,
-                          "startTime": "2025-12-01T12:21:20.851Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-68afa-00-000-AND-term-≤-60-months-chromium-retry1/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-68afa-00-000-AND-term-≤-60-months-chromium-retry1/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-68afa-00-000-AND-term-≤-60-months-chromium-retry1/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-68afa-00-000-AND-term-≤-60-months-chromium-retry1/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                            "column": 7,
-                            "line": 131
-                          }
-                        },
-                        {
-                          "workerIndex": 9,
-                          "parallelIndex": 1,
-                          "status": "failed",
-                          "duration": 815,
-                          "error": {
-                            "message": "Error: Total approved amount should be $90,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$90,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$90,000\"\u001b[39m",
-                            "stack": "Error: Total approved amount should be $90,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$90,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$90,000\"\u001b[39m\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:147:7",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                              "column": 7,
-                              "line": 131
-                            },
-                            "snippet": "   at page-objects/loan-summary.page.ts:131\n\n\u001b[0m \u001b[90m 129 |\u001b[39m       actual\u001b[33m,\u001b[39m \n \u001b[90m 130 |\u001b[39m       \u001b[32m`Total approved amount should be ${expectedAmount}`\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 131 |\u001b[39m     )\u001b[33m.\u001b[39mtoBe(expectedAmount)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 132 |\u001b[39m   }\n \u001b[90m 133 |\u001b[39m\n \u001b[90m 134 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                                "column": 7,
-                                "line": 131
-                              },
-                              "message": "Error: Total approved amount should be $90,000.00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"$90,000\u001b[7m.00\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"$90,000\"\u001b[39m\n\n   at page-objects/loan-summary.page.ts:131\n\n  129 |       actual, \n  130 |       `Total approved amount should be ${expectedAmount}`\n> 131 |     ).toBe(expectedAmount);\n      |       ^\n  132 |   }\n  133 |\n  134 |   /**\n    at LoanSummaryPage.expectTotalApprovedAmount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:131:7)\n    at LoanSummaryPage.expectSummaryStats (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts:157:7)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:147:7"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 2,
-                          "startTime": "2025-12-01T12:21:22.926Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-68afa-00-000-AND-term-≤-60-months-chromium-retry2/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-68afa-00-000-AND-term-≤-60-months-chromium-retry2/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-68afa-00-000-AND-term-≤-60-months-chromium-retry2/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-68afa-00-000-AND-term-≤-60-months-chromium-retry2/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-summary.page.ts",
-                            "column": 7,
-                            "line": 131
-                          }
+                          "attachments": []
                         }
                       ],
-                      "status": "unexpected"
+                      "status": "expected"
                     }
                   ],
                   "id": "1f3e9c0348843484c717-6a292a62635a3f06d97e",
                   "file": "tests/03-loan-actions.spec.ts",
-                  "line": 129,
+                  "line": 127,
                   "column": 5
                 },
                 {
@@ -1292,15 +809,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 7,
+                          "workerIndex": 0,
                           "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 850,
+                          "duration": 994,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:20.210Z",
+                          "startTime": "2025-12-01T12:26:05.623Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1310,7 +827,7 @@
                   ],
                   "id": "1f3e9c0348843484c717-8ef6b6d6bbc5d12b62fe",
                   "file": "tests/03-loan-actions.spec.ts",
-                  "line": 156,
+                  "line": 154,
                   "column": 5
                 },
                 {
@@ -1326,15 +843,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 7,
-                          "parallelIndex": 0,
+                          "workerIndex": 1,
+                          "parallelIndex": 1,
                           "status": "passed",
-                          "duration": 920,
+                          "duration": 932,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:21.079Z",
+                          "startTime": "2025-12-01T12:26:06.238Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -1344,7 +861,7 @@
                   ],
                   "id": "1f3e9c0348843484c717-c2ac20cb7092266c758e",
                   "file": "tests/03-loan-actions.spec.ts",
-                  "line": 183,
+                  "line": 181,
                   "column": 5
                 }
               ]
@@ -1352,12 +869,12 @@
             {
               "title": "Delete Loan",
               "file": "tests/03-loan-actions.spec.ts",
-              "line": 202,
+              "line": 200,
               "column": 8,
               "specs": [
                 {
                   "title": "should delete a pending loan",
-                  "ok": false,
+                  "ok": true,
                   "tags": [],
                   "tests": [
                     {
@@ -1368,191 +885,30 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 7,
+                          "workerIndex": 0,
                           "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 6091,
-                          "error": {
-                            "message": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n",
-                            "stack": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n\n    at LoanListPage.expectEmptyMessage (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:231:94)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:221:26",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                              "column": 94,
-                              "line": 231
-                            },
-                            "snippet": "   at page-objects/loan-list.page.ts:231\n\n\u001b[0m \u001b[90m 229 |\u001b[39m \u001b[90m   */\u001b[39m\n \u001b[90m 230 |\u001b[39m   \u001b[36masync\u001b[39m expectEmptyMessage()\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[36mvoid\u001b[39m\u001b[33m>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 231 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memptyMessage\u001b[33m,\u001b[39m \u001b[32m'Empty message should be displayed when no loans exist'\u001b[39m)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 232 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloanTable\u001b[33m,\u001b[39m \u001b[32m'Loan table should not be visible when no loans exist'\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 233 |\u001b[39m   }\n \u001b[90m 234 |\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                                "column": 94,
-                                "line": 231
-                              },
-                              "message": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n\n\n   at page-objects/loan-list.page.ts:231\n\n  229 |    */\n  230 |   async expectEmptyMessage(): Promise<void> {\n> 231 |     await expect(this.emptyMessage, 'Empty message should be displayed when no loans exist').toBeVisible();\n      |                                                                                              ^\n  232 |     await expect(this.loanTable, 'Loan table should not be visible when no loans exist').not.toBeVisible();\n  233 |   }\n  234 |\n    at LoanListPage.expectEmptyMessage (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:231:94)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:221:26"
-                            }
-                          ],
+                          "status": "passed",
+                          "duration": 1061,
+                          "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:22.015Z",
+                          "startTime": "2025-12-01T12:26:06.634Z",
                           "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-3cde3-hould-delete-a-pending-loan-chromium/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-3cde3-hould-delete-a-pending-loan-chromium/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-3cde3-hould-delete-a-pending-loan-chromium/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-3cde3-hould-delete-a-pending-loan-chromium/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                            "column": 94,
-                            "line": 231
-                          }
-                        },
-                        {
-                          "workerIndex": 11,
-                          "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 6048,
-                          "error": {
-                            "message": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n",
-                            "stack": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n\n    at LoanListPage.expectEmptyMessage (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:231:94)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:221:26",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                              "column": 94,
-                              "line": 231
-                            },
-                            "snippet": "   at page-objects/loan-list.page.ts:231\n\n\u001b[0m \u001b[90m 229 |\u001b[39m \u001b[90m   */\u001b[39m\n \u001b[90m 230 |\u001b[39m   \u001b[36masync\u001b[39m expectEmptyMessage()\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[36mvoid\u001b[39m\u001b[33m>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 231 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memptyMessage\u001b[33m,\u001b[39m \u001b[32m'Empty message should be displayed when no loans exist'\u001b[39m)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 232 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloanTable\u001b[33m,\u001b[39m \u001b[32m'Loan table should not be visible when no loans exist'\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 233 |\u001b[39m   }\n \u001b[90m 234 |\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                                "column": 94,
-                                "line": 231
-                              },
-                              "message": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n\n\n   at page-objects/loan-list.page.ts:231\n\n  229 |    */\n  230 |   async expectEmptyMessage(): Promise<void> {\n> 231 |     await expect(this.emptyMessage, 'Empty message should be displayed when no loans exist').toBeVisible();\n      |                                                                                              ^\n  232 |     await expect(this.loanTable, 'Loan table should not be visible when no loans exist').not.toBeVisible();\n  233 |   }\n  234 |\n    at LoanListPage.expectEmptyMessage (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:231:94)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:221:26"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 1,
-                          "startTime": "2025-12-01T12:21:28.757Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-3cde3-hould-delete-a-pending-loan-chromium-retry1/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-3cde3-hould-delete-a-pending-loan-chromium-retry1/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-3cde3-hould-delete-a-pending-loan-chromium-retry1/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-3cde3-hould-delete-a-pending-loan-chromium-retry1/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                            "column": 94,
-                            "line": 231
-                          }
-                        },
-                        {
-                          "workerIndex": 13,
-                          "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 6059,
-                          "error": {
-                            "message": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n",
-                            "stack": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n\n    at LoanListPage.expectEmptyMessage (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:231:94)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:221:26",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                              "column": 94,
-                              "line": 231
-                            },
-                            "snippet": "   at page-objects/loan-list.page.ts:231\n\n\u001b[0m \u001b[90m 229 |\u001b[39m \u001b[90m   */\u001b[39m\n \u001b[90m 230 |\u001b[39m   \u001b[36masync\u001b[39m expectEmptyMessage()\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[36mvoid\u001b[39m\u001b[33m>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 231 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memptyMessage\u001b[33m,\u001b[39m \u001b[32m'Empty message should be displayed when no loans exist'\u001b[39m)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 232 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloanTable\u001b[33m,\u001b[39m \u001b[32m'Loan table should not be visible when no loans exist'\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 233 |\u001b[39m   }\n \u001b[90m 234 |\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                                "column": 94,
-                                "line": 231
-                              },
-                              "message": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n\n\n   at page-objects/loan-list.page.ts:231\n\n  229 |    */\n  230 |   async expectEmptyMessage(): Promise<void> {\n> 231 |     await expect(this.emptyMessage, 'Empty message should be displayed when no loans exist').toBeVisible();\n      |                                                                                              ^\n  232 |     await expect(this.loanTable, 'Loan table should not be visible when no loans exist').not.toBeVisible();\n  233 |   }\n  234 |\n    at LoanListPage.expectEmptyMessage (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:231:94)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:221:26"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 2,
-                          "startTime": "2025-12-01T12:21:35.523Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-3cde3-hould-delete-a-pending-loan-chromium-retry2/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-3cde3-hould-delete-a-pending-loan-chromium-retry2/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-3cde3-hould-delete-a-pending-loan-chromium-retry2/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-3cde3-hould-delete-a-pending-loan-chromium-retry2/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                            "column": 94,
-                            "line": 231
-                          }
+                          "attachments": []
                         }
                       ],
-                      "status": "unexpected"
+                      "status": "expected"
                     }
                   ],
                   "id": "1f3e9c0348843484c717-03c9d26ebd5e9b9b1700",
                   "file": "tests/03-loan-actions.spec.ts",
-                  "line": 203,
+                  "line": 201,
                   "column": 5
                 },
                 {
                   "title": "should delete an approved loan",
-                  "ok": false,
+                  "ok": true,
                   "tags": [],
                   "tests": [
                     {
@@ -1563,191 +919,30 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 10,
+                          "workerIndex": 1,
                           "parallelIndex": 1,
-                          "status": "failed",
-                          "duration": 6191,
-                          "error": {
-                            "message": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n",
-                            "stack": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n\n    at LoanListPage.expectEmptyMessage (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:231:94)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:244:26",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                              "column": 94,
-                              "line": 231
-                            },
-                            "snippet": "   at page-objects/loan-list.page.ts:231\n\n\u001b[0m \u001b[90m 229 |\u001b[39m \u001b[90m   */\u001b[39m\n \u001b[90m 230 |\u001b[39m   \u001b[36masync\u001b[39m expectEmptyMessage()\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[36mvoid\u001b[39m\u001b[33m>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 231 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memptyMessage\u001b[33m,\u001b[39m \u001b[32m'Empty message should be displayed when no loans exist'\u001b[39m)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 232 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloanTable\u001b[33m,\u001b[39m \u001b[32m'Loan table should not be visible when no loans exist'\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 233 |\u001b[39m   }\n \u001b[90m 234 |\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                                "column": 94,
-                                "line": 231
-                              },
-                              "message": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n\n\n   at page-objects/loan-list.page.ts:231\n\n  229 |    */\n  230 |   async expectEmptyMessage(): Promise<void> {\n> 231 |     await expect(this.emptyMessage, 'Empty message should be displayed when no loans exist').toBeVisible();\n      |                                                                                              ^\n  232 |     await expect(this.loanTable, 'Loan table should not be visible when no loans exist').not.toBeVisible();\n  233 |   }\n  234 |\n    at LoanListPage.expectEmptyMessage (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:231:94)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:244:26"
-                            }
-                          ],
+                          "status": "passed",
+                          "duration": 1119,
+                          "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:24.455Z",
+                          "startTime": "2025-12-01T12:26:07.193Z",
                           "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-80b8a-uld-delete-an-approved-loan-chromium/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-80b8a-uld-delete-an-approved-loan-chromium/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-80b8a-uld-delete-an-approved-loan-chromium/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-80b8a-uld-delete-an-approved-loan-chromium/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                            "column": 94,
-                            "line": 231
-                          }
-                        },
-                        {
-                          "workerIndex": 12,
-                          "parallelIndex": 1,
-                          "status": "failed",
-                          "duration": 6137,
-                          "error": {
-                            "message": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n",
-                            "stack": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n\n    at LoanListPage.expectEmptyMessage (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:231:94)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:244:26",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                              "column": 94,
-                              "line": 231
-                            },
-                            "snippet": "   at page-objects/loan-list.page.ts:231\n\n\u001b[0m \u001b[90m 229 |\u001b[39m \u001b[90m   */\u001b[39m\n \u001b[90m 230 |\u001b[39m   \u001b[36masync\u001b[39m expectEmptyMessage()\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[36mvoid\u001b[39m\u001b[33m>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 231 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memptyMessage\u001b[33m,\u001b[39m \u001b[32m'Empty message should be displayed when no loans exist'\u001b[39m)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 232 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloanTable\u001b[33m,\u001b[39m \u001b[32m'Loan table should not be visible when no loans exist'\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 233 |\u001b[39m   }\n \u001b[90m 234 |\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                                "column": 94,
-                                "line": 231
-                              },
-                              "message": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n\n\n   at page-objects/loan-list.page.ts:231\n\n  229 |    */\n  230 |   async expectEmptyMessage(): Promise<void> {\n> 231 |     await expect(this.emptyMessage, 'Empty message should be displayed when no loans exist').toBeVisible();\n      |                                                                                              ^\n  232 |     await expect(this.loanTable, 'Loan table should not be visible when no loans exist').not.toBeVisible();\n  233 |   }\n  234 |\n    at LoanListPage.expectEmptyMessage (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:231:94)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:244:26"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 1,
-                          "startTime": "2025-12-01T12:21:31.372Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-80b8a-uld-delete-an-approved-loan-chromium-retry1/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-80b8a-uld-delete-an-approved-loan-chromium-retry1/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-80b8a-uld-delete-an-approved-loan-chromium-retry1/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-80b8a-uld-delete-an-approved-loan-chromium-retry1/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                            "column": 94,
-                            "line": 231
-                          }
-                        },
-                        {
-                          "workerIndex": 14,
-                          "parallelIndex": 1,
-                          "status": "failed",
-                          "duration": 6222,
-                          "error": {
-                            "message": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n",
-                            "stack": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n\n    at LoanListPage.expectEmptyMessage (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:231:94)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:244:26",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                              "column": 94,
-                              "line": 231
-                            },
-                            "snippet": "   at page-objects/loan-list.page.ts:231\n\n\u001b[0m \u001b[90m 229 |\u001b[39m \u001b[90m   */\u001b[39m\n \u001b[90m 230 |\u001b[39m   \u001b[36masync\u001b[39m expectEmptyMessage()\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[36mvoid\u001b[39m\u001b[33m>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 231 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39memptyMessage\u001b[33m,\u001b[39m \u001b[32m'Empty message should be displayed when no loans exist'\u001b[39m)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 232 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloanTable\u001b[33m,\u001b[39m \u001b[32m'Loan table should not be visible when no loans exist'\u001b[39m)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 233 |\u001b[39m   }\n \u001b[90m 234 |\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                                "column": 94,
-                                "line": 231
-                              },
-                              "message": "Error: Empty message should be displayed when no loans exist\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('No loan applications yet. Create one using the form.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Empty message should be displayed when no loans exist with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('No loan applications yet. Create one using the form.')\u001b[22m\n\n\n   at page-objects/loan-list.page.ts:231\n\n  229 |    */\n  230 |   async expectEmptyMessage(): Promise<void> {\n> 231 |     await expect(this.emptyMessage, 'Empty message should be displayed when no loans exist').toBeVisible();\n      |                                                                                              ^\n  232 |     await expect(this.loanTable, 'Loan table should not be visible when no loans exist').not.toBeVisible();\n  233 |   }\n  234 |\n    at LoanListPage.expectEmptyMessage (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:231:94)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:244:26"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 2,
-                          "startTime": "2025-12-01T12:21:38.229Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-80b8a-uld-delete-an-approved-loan-chromium-retry2/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-80b8a-uld-delete-an-approved-loan-chromium-retry2/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-80b8a-uld-delete-an-approved-loan-chromium-retry2/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-80b8a-uld-delete-an-approved-loan-chromium-retry2/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                            "column": 94,
-                            "line": 231
-                          }
+                          "attachments": []
                         }
                       ],
-                      "status": "unexpected"
+                      "status": "expected"
                     }
                   ],
                   "id": "1f3e9c0348843484c717-3e5c84a1fce16724cc24",
                   "file": "tests/03-loan-actions.spec.ts",
-                  "line": 228,
+                  "line": 226,
                   "column": 5
                 },
                 {
                   "title": "should delete only the selected loan when multiple exist",
-                  "ok": false,
+                  "ok": true,
                   "tags": [],
                   "tests": [
                     {
@@ -1758,186 +953,25 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 15,
+                          "workerIndex": 0,
                           "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 6397,
-                          "error": {
-                            "message": "Error: Should have 1 loan(s) in the table\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('tbody tr')\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Should have 1 loan(s) in the table with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('tbody tr')\u001b[22m\n\u001b[2m    9 × locator resolved to 2 elements\u001b[22m\n\u001b[2m      - unexpected value \"2\"\u001b[22m\n",
-                            "stack": "Error: Should have 1 loan(s) in the table\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('tbody tr')\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Should have 1 loan(s) in the table with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('tbody tr')\u001b[22m\n\u001b[2m    9 × locator resolved to 2 elements\u001b[22m\n\u001b[2m      - unexpected value \"2\"\u001b[22m\n\n    at LoanListPage.expectLoanCount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:247:87)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:263:26",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                              "column": 87,
-                              "line": 247
-                            },
-                            "snippet": "   at page-objects/loan-list.page.ts:247\n\n\u001b[0m \u001b[90m 245 |\u001b[39m \u001b[90m   */\u001b[39m\n \u001b[90m 246 |\u001b[39m   \u001b[36masync\u001b[39m expectLoanCount(expectedCount\u001b[33m:\u001b[39m number)\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[36mvoid\u001b[39m\u001b[33m>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 247 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtableRows\u001b[33m,\u001b[39m \u001b[32m`Should have ${expectedCount} loan(s) in the table`\u001b[39m)\u001b[33m.\u001b[39mtoHaveCount(expectedCount)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 248 |\u001b[39m   }\n \u001b[90m 249 |\u001b[39m\n \u001b[90m 250 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                                "column": 87,
-                                "line": 247
-                              },
-                              "message": "Error: Should have 1 loan(s) in the table\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('tbody tr')\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Should have 1 loan(s) in the table with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('tbody tr')\u001b[22m\n\u001b[2m    9 × locator resolved to 2 elements\u001b[22m\n\u001b[2m      - unexpected value \"2\"\u001b[22m\n\n\n   at page-objects/loan-list.page.ts:247\n\n  245 |    */\n  246 |   async expectLoanCount(expectedCount: number): Promise<void> {\n> 247 |     await expect(this.tableRows, `Should have ${expectedCount} loan(s) in the table`).toHaveCount(expectedCount);\n      |                                                                                       ^\n  248 |   }\n  249 |\n  250 |   /**\n    at LoanListPage.expectLoanCount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:247:87)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:263:26"
-                            }
-                          ],
+                          "status": "passed",
+                          "duration": 1058,
+                          "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:42.312Z",
+                          "startTime": "2025-12-01T12:26:07.713Z",
                           "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-44913-ed-loan-when-multiple-exist-chromium/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-44913-ed-loan-when-multiple-exist-chromium/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-44913-ed-loan-when-multiple-exist-chromium/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-44913-ed-loan-when-multiple-exist-chromium/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                            "column": 87,
-                            "line": 247
-                          }
-                        },
-                        {
-                          "workerIndex": 17,
-                          "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 6490,
-                          "error": {
-                            "message": "Error: Should have 1 loan(s) in the table\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('tbody tr')\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Should have 1 loan(s) in the table with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('tbody tr')\u001b[22m\n\u001b[2m    9 × locator resolved to 2 elements\u001b[22m\n\u001b[2m      - unexpected value \"2\"\u001b[22m\n",
-                            "stack": "Error: Should have 1 loan(s) in the table\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('tbody tr')\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Should have 1 loan(s) in the table with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('tbody tr')\u001b[22m\n\u001b[2m    9 × locator resolved to 2 elements\u001b[22m\n\u001b[2m      - unexpected value \"2\"\u001b[22m\n\n    at LoanListPage.expectLoanCount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:247:87)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:263:26",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                              "column": 87,
-                              "line": 247
-                            },
-                            "snippet": "   at page-objects/loan-list.page.ts:247\n\n\u001b[0m \u001b[90m 245 |\u001b[39m \u001b[90m   */\u001b[39m\n \u001b[90m 246 |\u001b[39m   \u001b[36masync\u001b[39m expectLoanCount(expectedCount\u001b[33m:\u001b[39m number)\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[36mvoid\u001b[39m\u001b[33m>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 247 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtableRows\u001b[33m,\u001b[39m \u001b[32m`Should have ${expectedCount} loan(s) in the table`\u001b[39m)\u001b[33m.\u001b[39mtoHaveCount(expectedCount)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 248 |\u001b[39m   }\n \u001b[90m 249 |\u001b[39m\n \u001b[90m 250 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                                "column": 87,
-                                "line": 247
-                              },
-                              "message": "Error: Should have 1 loan(s) in the table\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('tbody tr')\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Should have 1 loan(s) in the table with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('tbody tr')\u001b[22m\n\u001b[2m    9 × locator resolved to 2 elements\u001b[22m\n\u001b[2m      - unexpected value \"2\"\u001b[22m\n\n\n   at page-objects/loan-list.page.ts:247\n\n  245 |    */\n  246 |   async expectLoanCount(expectedCount: number): Promise<void> {\n> 247 |     await expect(this.tableRows, `Should have ${expectedCount} loan(s) in the table`).toHaveCount(expectedCount);\n      |                                                                                       ^\n  248 |   }\n  249 |\n  250 |   /**\n    at LoanListPage.expectLoanCount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:247:87)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:263:26"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 1,
-                          "startTime": "2025-12-01T12:21:49.726Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-44913-ed-loan-when-multiple-exist-chromium-retry1/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-44913-ed-loan-when-multiple-exist-chromium-retry1/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-44913-ed-loan-when-multiple-exist-chromium-retry1/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-44913-ed-loan-when-multiple-exist-chromium-retry1/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                            "column": 87,
-                            "line": 247
-                          }
-                        },
-                        {
-                          "workerIndex": 18,
-                          "parallelIndex": 0,
-                          "status": "failed",
-                          "duration": 6097,
-                          "error": {
-                            "message": "Error: Should have 1 loan(s) in the table\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('tbody tr')\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Should have 1 loan(s) in the table with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('tbody tr')\u001b[22m\n\u001b[2m    9 × locator resolved to 2 elements\u001b[22m\n\u001b[2m      - unexpected value \"2\"\u001b[22m\n",
-                            "stack": "Error: Should have 1 loan(s) in the table\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('tbody tr')\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Should have 1 loan(s) in the table with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('tbody tr')\u001b[22m\n\u001b[2m    9 × locator resolved to 2 elements\u001b[22m\n\u001b[2m      - unexpected value \"2\"\u001b[22m\n\n    at LoanListPage.expectLoanCount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:247:87)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:263:26",
-                            "location": {
-                              "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                              "column": 87,
-                              "line": 247
-                            },
-                            "snippet": "   at page-objects/loan-list.page.ts:247\n\n\u001b[0m \u001b[90m 245 |\u001b[39m \u001b[90m   */\u001b[39m\n \u001b[90m 246 |\u001b[39m   \u001b[36masync\u001b[39m expectLoanCount(expectedCount\u001b[33m:\u001b[39m number)\u001b[33m:\u001b[39m \u001b[33mPromise\u001b[39m\u001b[33m<\u001b[39m\u001b[36mvoid\u001b[39m\u001b[33m>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 247 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtableRows\u001b[33m,\u001b[39m \u001b[32m`Should have ${expectedCount} loan(s) in the table`\u001b[39m)\u001b[33m.\u001b[39mtoHaveCount(expectedCount)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 248 |\u001b[39m   }\n \u001b[90m 249 |\u001b[39m\n \u001b[90m 250 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m"
-                          },
-                          "errors": [
-                            {
-                              "location": {
-                                "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                                "column": 87,
-                                "line": 247
-                              },
-                              "message": "Error: Should have 1 loan(s) in the table\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('tbody tr')\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Should have 1 loan(s) in the table with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('tbody tr')\u001b[22m\n\u001b[2m    9 × locator resolved to 2 elements\u001b[22m\n\u001b[2m      - unexpected value \"2\"\u001b[22m\n\n\n   at page-objects/loan-list.page.ts:247\n\n  245 |    */\n  246 |   async expectLoanCount(expectedCount: number): Promise<void> {\n> 247 |     await expect(this.tableRows, `Should have ${expectedCount} loan(s) in the table`).toHaveCount(expectedCount);\n      |                                                                                       ^\n  248 |   }\n  249 |\n  250 |   /**\n    at LoanListPage.expectLoanCount (/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts:247:87)\n    at /home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/tests/03-loan-actions.spec.ts:263:26"
-                            }
-                          ],
-                          "stdout": [],
-                          "stderr": [],
-                          "retry": 2,
-                          "startTime": "2025-12-01T12:21:57.008Z",
-                          "annotations": [],
-                          "attachments": [
-                            {
-                              "name": "screenshot",
-                              "contentType": "image/png",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-44913-ed-loan-when-multiple-exist-chromium-retry2/test-failed-1.png"
-                            },
-                            {
-                              "name": "video",
-                              "contentType": "video/webm",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-44913-ed-loan-when-multiple-exist-chromium-retry2/video.webm"
-                            },
-                            {
-                              "name": "error-context",
-                              "contentType": "text/markdown",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-44913-ed-loan-when-multiple-exist-chromium-retry2/error-context.md"
-                            },
-                            {
-                              "name": "trace",
-                              "contentType": "application/zip",
-                              "path": "/home/runner/work/tredgate-loan/tredgate-loan/test-results/tests-03-loan-actions-Loan-44913-ed-loan-when-multiple-exist-chromium-retry2/trace.zip"
-                            }
-                          ],
-                          "errorLocation": {
-                            "file": "/home/runner/work/tredgate-loan/tredgate-loan/e2e-tests/page-objects/loan-list.page.ts",
-                            "column": 87,
-                            "line": 247
-                          }
+                          "attachments": []
                         }
                       ],
-                      "status": "unexpected"
+                      "status": "expected"
                     }
                   ],
                   "id": "1f3e9c0348843484c717-72e1823b93919c8f66ab",
                   "file": "tests/03-loan-actions.spec.ts",
-                  "line": 248,
+                  "line": 246,
                   "column": 5
                 }
               ]
@@ -1979,15 +1013,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 16,
+                          "workerIndex": 1,
                           "parallelIndex": 1,
                           "status": "passed",
-                          "duration": 613,
+                          "duration": 824,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:45.172Z",
+                          "startTime": "2025-12-01T12:26:08.344Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2013,15 +1047,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 16,
-                          "parallelIndex": 1,
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 472,
+                          "duration": 820,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:45.865Z",
+                          "startTime": "2025-12-01T12:26:08.798Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2047,15 +1081,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 16,
+                          "workerIndex": 1,
                           "parallelIndex": 1,
                           "status": "passed",
-                          "duration": 468,
+                          "duration": 846,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:46.352Z",
+                          "startTime": "2025-12-01T12:26:09.187Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2089,15 +1123,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 16,
-                          "parallelIndex": 1,
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 477,
+                          "duration": 743,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:46.835Z",
+                          "startTime": "2025-12-01T12:26:09.634Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2123,15 +1157,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 16,
+                          "workerIndex": 1,
                           "parallelIndex": 1,
                           "status": "passed",
-                          "duration": 481,
+                          "duration": 752,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:47.323Z",
+                          "startTime": "2025-12-01T12:26:10.058Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2165,15 +1199,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 16,
-                          "parallelIndex": 1,
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 852,
+                          "duration": 897,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:47.814Z",
+                          "startTime": "2025-12-01T12:26:10.394Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2199,15 +1233,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 16,
+                          "workerIndex": 1,
                           "parallelIndex": 1,
                           "status": "passed",
-                          "duration": 769,
+                          "duration": 842,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:48.677Z",
+                          "startTime": "2025-12-01T12:26:10.827Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2233,15 +1267,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 16,
-                          "parallelIndex": 1,
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 889,
+                          "duration": 899,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:49.458Z",
+                          "startTime": "2025-12-01T12:26:11.306Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2275,15 +1309,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 16,
+                          "workerIndex": 1,
                           "parallelIndex": 1,
                           "status": "passed",
-                          "duration": 1052,
+                          "duration": 1242,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:50.359Z",
+                          "startTime": "2025-12-01T12:26:11.684Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2309,15 +1343,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 16,
-                          "parallelIndex": 1,
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 492,
+                          "duration": 796,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:51.424Z",
+                          "startTime": "2025-12-01T12:26:12.224Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2343,15 +1377,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 16,
+                          "workerIndex": 1,
                           "parallelIndex": 1,
                           "status": "passed",
-                          "duration": 510,
+                          "duration": 835,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:51.927Z",
+                          "startTime": "2025-12-01T12:26:12.939Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2377,15 +1411,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 16,
-                          "parallelIndex": 1,
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 520,
+                          "duration": 785,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:52.447Z",
+                          "startTime": "2025-12-01T12:26:13.036Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2419,15 +1453,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 16,
+                          "workerIndex": 1,
                           "parallelIndex": 1,
                           "status": "passed",
-                          "duration": 409,
+                          "duration": 662,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:52.978Z",
+                          "startTime": "2025-12-01T12:26:13.790Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2453,15 +1487,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 16,
-                          "parallelIndex": 1,
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 681,
+                          "duration": 1041,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:53.397Z",
+                          "startTime": "2025-12-01T12:26:13.838Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2495,15 +1529,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 16,
+                          "workerIndex": 1,
                           "parallelIndex": 1,
                           "status": "passed",
-                          "duration": 689,
+                          "duration": 1069,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:54.088Z",
+                          "startTime": "2025-12-01T12:26:14.465Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2529,15 +1563,15 @@
                       "projectName": "chromium",
                       "results": [
                         {
-                          "workerIndex": 16,
-                          "parallelIndex": 1,
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
                           "status": "passed",
-                          "duration": 609,
+                          "duration": 898,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-12-01T12:21:54.786Z",
+                          "startTime": "2025-12-01T12:26:14.895Z",
                           "annotations": [],
                           "attachments": []
                         }
@@ -2559,11 +1593,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-12-01T12:21:04.142Z",
-    "duration": 59171.443,
-    "expected": 33,
+    "startTime": "2025-12-01T12:25:55.835Z",
+    "duration": 20028.236,
+    "expected": 39,
     "skipped": 0,
-    "unexpected": 6,
+    "unexpected": 0,
     "flaky": 0
   }
 }

@@ -23,6 +23,7 @@ Tredgate Loan is a frontend-only demo application used for training on GitHub Co
 - **TypeScript** - Type-safe JavaScript
 - **Vite** - Fast build tool and dev server
 - **Vitest** - Unit testing framework
+- **Playwright** - End-to-end testing framework
 - **ESLint** - Code linting
 
 ## Getting Started
@@ -52,7 +53,9 @@ npm run build
 
 ### Testing
 
-Run all tests:
+#### Unit Tests (Vitest)
+
+Run all unit tests:
 ```bash
 npm run test
 ```
@@ -67,7 +70,26 @@ Generate HTML test report:
 npm run test:report
 ```
 
-For detailed testing documentation, see [TESTING.md](./TESTING.md).
+For detailed unit testing documentation, see [TESTING.md](./TESTING.md).
+
+#### E2E Tests (Playwright)
+
+Run all E2E tests:
+```bash
+npm run test:e2e
+```
+
+Run E2E tests in UI mode:
+```bash
+npm run test:e2e:ui
+```
+
+View Playwright report:
+```bash
+npm run playwright:report
+```
+
+For detailed E2E testing documentation, see [PLAYWRIGHT.md](./PLAYWRIGHT.md).
 
 ### Linting
 
@@ -105,22 +127,40 @@ All data is stored in the browser's localStorage under the key `tredgate_loans`.
 
 ## Testing
 
-The project has comprehensive test coverage with 57 tests across:
-- Service layer (19 tests)
+The project has comprehensive test coverage:
+
+### Unit Tests (Vitest)
+- **61 tests** across 4 test suites
+- Service layer (23 tests)
 - Vue components (38 tests)
+- See [TESTING.md](./TESTING.md) for detailed documentation
 
-Tests use Vitest and @vue/test-utils. HTML test reports are automatically generated and can be viewed in your browser.
+### E2E Tests (Playwright)
+- **39 tests** covering all core user journeys
+- Smoke tests (7 tests)
+- Loan creation tests (6 tests)
+- Loan actions tests (16 tests)
+- Edge cases and validation (10 tests)
+- See [PLAYWRIGHT.md](./PLAYWRIGHT.md) for detailed documentation
 
-See [TESTING.md](./TESTING.md) for detailed testing documentation.
+**Total: 100 tests** ensuring application quality and reliability.
 
 ## CI/CD
 
+### Continuous Integration (CI)
 GitHub Actions workflow runs on all pull requests to `main`:
 - Linting
-- All tests
+- Unit tests (Vitest)
 - HTML report generation
 - Artifact uploads
 - Build verification
+
+### Playwright Tests
+GitHub Actions workflow for E2E tests:
+- Manual trigger via `workflow_dispatch`
+- Optional: Runs on pull requests
+- Generates HTML reports with screenshots/videos
+- Uploads test artifacts
 
 Test reports are available as workflow artifacts.
 
