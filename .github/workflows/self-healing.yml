@@ -34,17 +34,10 @@ jobs:
           TEST_EXIT_CODE=$?
           exit $TEST_EXIT_CODE
 
-      - name: Save test output
-        if: steps.run-tests.outcome == 'failure'
-        run: |
-          echo "TEST_LOG<<EOF" >> $GITHUB_ENV
-          cat test-output.log >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
-
       - name: Create Copilot healing issue
         if: steps.run-tests.outcome == 'failure'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           chmod +x .github/scripts/create-copilot-issue.sh
-          .github/scripts/create-copilot-issue.sh "${{ env.TEST_LOG }}" "${{ github.run_id }}" "${{ github.sha }}"
+          .github/scripts/create-copilot-issue.sh test-output.log "${{ github.run_id }}" "${{ github.sha }}"
