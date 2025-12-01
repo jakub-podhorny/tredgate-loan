@@ -133,6 +133,7 @@ describe('LoanList', () => {
     })
     
     // amount: 50000, interestRate: 0.08, termMonths: 24
+    // Formula: total = amount * (1 + interestRate), monthly = total / termMonths
     // total = 50000 * 1.08 = 54000
     // monthly = 54000 / 24 = 2250
     expect(wrapper.text()).toContain('$2,250.00')

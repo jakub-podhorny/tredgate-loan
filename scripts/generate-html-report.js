@@ -243,7 +243,7 @@ const html = `<!DOCTYPE html>
         <div class="stat-label">Skipped</div>
       </div>
       <div class="stat-card info">
-        <div class="stat-value">${((results.testResults?.[0]?.endTime - results.testResults?.[0]?.startTime) || 0).toFixed(0)}ms</div>
+        <div class="stat-value">${calculateTotalDuration(results.testResults || [])}</div>
         <div class="stat-label">Duration</div>
       </div>
     </div>
@@ -262,6 +262,19 @@ const html = `<!DOCTYPE html>
 
 writeFileSync(outputPath, html, 'utf-8')
 console.log(`✅ HTML report generated: ${outputPath}`)
+
+function calculateTotalDuration(testResults) {
+  if (!testResults || testResults.length === 0) {
+    return '0ms'
+  }
+  
+  const totalMs = testResults.reduce((sum, suite) => {
+    const duration = (suite.endTime || 0) - (suite.startTime || 0)
+    return sum + duration
+  }, 0)
+  
+  return `${totalMs.toFixed(0)}ms`
+}
 
 function generateTestSuites(testResults) {
   if (!testResults || testResults.length === 0) {
